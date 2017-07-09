@@ -1,0 +1,32 @@
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+ class number
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	   int n1 ,n2;
+	   Scanner s= new Scanner (System.in);
+	   System.out.println("enter the value of n1");
+	   n1=s.nextInt();
+	   System.out.println("enter the value of n2");
+	   n2=s.nextInt();
+	   if ( n1 < 0.0 )
+	   { 
+	   	System.out.println( "negative number -"+n1)	;
+	   }
+	   else 
+	     System.out.println( "positive number -"+n1);
+	   if ( n2 < 0.0 )
+	   { 
+	   	System.out.println( "negative number -"+n2)	;
+	   }
+	   else 
+	     System.out.println( "positive number -"+n2);  
+	  
+	}
+}
